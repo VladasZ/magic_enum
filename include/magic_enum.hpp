@@ -113,6 +113,9 @@
 #  endif
 #endif
 
+#undef assert
+#define assert(__e) ((void)0)
+
 namespace magic_enum {
 
 // If need another optional type, define the macro MAGIC_ENUM_USING_ALIAS_OPTIONAL.
